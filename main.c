@@ -5,19 +5,13 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x,y,z,m,a,b,c;
+	int x = 3;
+	int cond1, cond2; 
 
+	cond1 = 2 < x && x < 5;
+	cond2 = x > 1 || x < 4 && x > 3;
+
+	printf("cond1 = %d , cond2 = %d\n", cond1, cond2);
 	
-    x = 1;
-	z = 3;
-	a = 3;
-	b = 4;
-	c = 5;
-
-	y = a*x*x + b*x + c;
-	m = (x + y + z) / 3;
-
-   printf("y = %d \nm = %d", y, m);
-   
 	return 0;
 }
